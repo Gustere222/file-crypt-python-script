@@ -15,8 +15,6 @@ for file in os.listdir():
 	if os.path.isfile(file):
 		files.append(file)
 
-print(files)
-
 #Here, we are opening up the key file we created in voldemort.py and are storing the key
 #inside the variable secretkey
 
